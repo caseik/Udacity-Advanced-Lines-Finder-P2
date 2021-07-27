@@ -47,7 +47,7 @@ This repositories contains the videos and the images output. The videos were con
 ```
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt install libgirepository1.0-dev gcc libcairo2-dev pkg-config python3-dev gir1.2-gtk-3.0
+sudo apt install libgirepository1.0-dev gcc libcairo2-dev pkg-config python3-dev gir1.2-gtk-3.0 python3-tk 
 ```
 
 ### Installing
@@ -55,7 +55,7 @@ sudo apt install libgirepository1.0-dev gcc libcairo2-dev pkg-config python3-dev
 In Ubuntu, then inside a virtualenv
 
 ```
-pip3 install -r requiremetns.txt
+pip3 install -r requirements.txt
 ```
 
 ### Executing
